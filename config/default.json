@@ -1,0 +1,20 @@
+{
+    "express": {
+        "port": 3000,
+        "debug": 5858,
+        "host": "host-service"
+    },
+    "database": {
+        "migrate": false
+    },
+    "domain":"http://localhost:4700",
+    "front":"http://localhost:4100",
+    "mongodb": "mongodb+srv://marketplace:allah123akbar@cluster0.xfyqz.mongodb.net/marketplace?retryWrites=true&w=majority ",
+    "sendgrid":{
+  "key":"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"
+    },
+"jwt":{
+    "secret":"markeptlacefull"
+},
+    "loglevel": "info"
+}

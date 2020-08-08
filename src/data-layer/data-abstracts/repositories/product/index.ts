@@ -1,0 +1,1 @@
+export {productRepos} from './repository'
